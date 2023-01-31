@@ -1,7 +1,7 @@
 @echo off 
-
+:: MODIFY THIS        \/
 set ALL_USERS_ROOT="\\server1\"
-
+:: MODIFY THIS        /\
 cd sys
 start S1inboxWindow.bat
 cd ..
