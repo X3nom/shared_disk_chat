@@ -7,6 +7,8 @@ set GLOBAL_CHAT_PATH=\\server1\userA\S1ChatAdmin\chat.txt
 cd sys
 start S1chatWindow.bat
 cd ..
+@echo off
+cls
 :a
 set /p msg="enter message: [36m"
 echo [34m%username%^> [33m%msg% >> %GLOBAL_CHAT_PATH%
