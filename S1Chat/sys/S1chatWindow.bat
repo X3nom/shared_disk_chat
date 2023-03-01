@@ -6,6 +6,7 @@ set GLOBAL_CHAT_PATH=\\server1\userA\S1ChatAdmin\chat.txt
 setlocal enableDelayedExpansion
 :: window showing contents of global chat, updates after change of chat.txt size occures
 :read
+    @echo off
     cls
     type %GLOBAL_CHAT_PATH%
 
